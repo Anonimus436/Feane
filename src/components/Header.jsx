@@ -71,7 +71,9 @@ const Header = ({ interval = 3000 }) => {
 
             {justify && (
   <>
-  <div className="flex flex-col w-full text-center mx-0!">
+  <div className="flex flex-col w-full text-center mx-0!" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
 
             <div className="flex flex-col justify-center gap-x-8 gap-y-10 pt-2.5">
                 <a href="#" className=" block w-full no-underline! text-white hover:text-amber-500! duration-500">HOME</a>
